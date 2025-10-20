@@ -106,6 +106,17 @@ Lưu ý: ThingSpeak yêu cầu khoảng cách gửi (throttle) — thường 15s
 
 ---
 
+## Trang ThingSpeak
+
+- Kênh ThingSpeak nơi dữ liệu được cập nhật:  
+  https://thingspeak.mathworks.com/channels/3124251
+
+- Mô tả: kênh này nhận dữ liệu nhiệt độ, độ ẩm và điện áp từ hệ thống ESP32-C3 của bạn. Hệ thống luôn hoạt động và cập nhật dữ liệu định kỳ tại nhà của bạn theo chu kỳ sleep cấu hình trong `boot.py` (mặc định 5 phút).
+
+- Xem dữ liệu: mở liên kết trên trình duyệt để xem biểu đồ và nhật ký cập nhật.
+
+---
+
 ## Main flow (luồng chính)
 
 1. In thông báo khởi động và lấy `start_time = ticks_ms()` để dùng cho watchdog.
@@ -148,4 +159,5 @@ Xác nhận chân của board ESP32-C3 bạn đang dùng — số chân vật l�
 ## Tệp liên quan
 
 - Mã chính: [THONNY/boot.py](THONNY/boot.py)
+- Trang ThingSpeak: https://thingspeak.mathworks.com/channels/3124251
 - Tài liệu hiện tại:
