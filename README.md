@@ -1,8 +1,9 @@
 # ESP32-C3 — Giám sát nhiệt độ, độ ẩm và điện áp, gửi lên ThingSpeak
 
 README này giải thích chi tiết mã trong [THONNY/boot.py](THONNY/boot.py). Mục tiêu: đọc cảm biến AHT20 (I2C), đo điện áp qua ADC, gửi dữ liệu lên ThingSpeak, dùng watchdog đơn giản và vào deep sleep để tiết kiệm năng lượng.
-![alt text](circuit_image.png)
+
 ---
+![alt text](circuit_image.png)
 
 ## Tổng quan file mã
 
